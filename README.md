@@ -101,3 +101,17 @@ Ava is an interactive, AI-driven application tailored to help young children wit
 - Improved conversational clarity and increased frequency of speech
 - Clearer emotional recognition demonstrated by the child
 - Increased successful potty-training interactions
+
+## Backend Setup
+The backend uses **FastAPI** (Python 3.12). To install dependencies, create and activate a virtual environment and run:
+
+```bash
+pip install -r backend/requirements.txt
+```
+
+Start the development server with:
+
+```bash
+uvicorn app.main:app --reload --app-dir backend
+```
+
